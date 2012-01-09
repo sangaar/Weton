@@ -1,6 +1,6 @@
 {
 	"style": {
-		"background-color": "white",
+		"background-color": "#ebf4fb",
 		"border": 10
 	},
 
@@ -10,12 +10,67 @@
 			"control": "TextView",
 			"label": "wetonZZ",
 			"style": {
-				"color": "black",
-				"width": "fill-parent",
-				"height": "fill-parent",
-				"align": "center",
-				"valign": "middle"
+				"font-weight":"bold"
 			}
+		},
+		{
+			"name": "tvTanggal",
+			"control": "TextView",
+			"label": "Masukan Tanggal"
+		},
+		{
+			"name": "ibTanggal",
+			"control": "InputBox",
+			style: {
+				'background-color': 'white',
+				width: 'fill-parent',
+				height: 25
+			}
+		},
+		{
+			"name": "tvBulan",
+			"control": "TextView",
+			"label": "Masukan Bulan"
+                    },
+		{
+			"name": "ibBulan",
+			"control": "InputBox",
+			style: {
+				'background-color': 'white',
+				width: 'fill-parent',
+				height: 25
+			}
+		},
+		{
+			"name": "tvTahun",
+			"control": "TextView",
+			"label": "Masukan Tahun"
+		},
+		{
+			"name": "ibTahun",
+			"control": "InputBox",
+			style: {
+				'background-color': 'white',
+				width: 'fill-parent',
+				height: 25
+			}
+		},
+
+		{
+			"name": "button-box",
+			"control": "VLayout",
+			"contents":[
+				{
+					"control": "Control",
+					style: {
+						width: 'fill-parent',
+						height: 20
+					}
+				},{
+					"name": "bSearch",
+					"control": "ImageView"
+				}
+			]
 		}
 	]
 }
